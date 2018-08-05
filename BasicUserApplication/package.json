@@ -1,13 +1,13 @@
 {
-  "name": "loginapp",
+  "name": "BasicUserApplication",
   "version": "1.0.0",
-  "description": "Simple authentication system",
+  "description": "Basic authentication system using NodeJs, Express JS and MongoDB",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brad Traversy",
+  "author": "Minolie Fernando",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "*",
