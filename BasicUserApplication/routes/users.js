@@ -12,7 +12,7 @@ router.get('/register', function (req, res) {
 
 // Login
 router.get('/login', function (req, res) {
-	res.render('login');
+	res.render('login', { user : req.user });
 });
 
 // Register User
@@ -64,7 +64,7 @@ router.post('/register', function (req, res) {
 						console.log(user);
 					});
          	req.flash('success_msg', 'You are registered and can now login');
-					res.redirect('/users/login');
+					res.redirect('/users/login' , { username: req.user.username });
 				}
 			});
 		});
