@@ -5,18 +5,18 @@ var LocalStrategy = require('passport-local').Strategy;
 
 var User = require('../models/user');
 
-// Login
+//Login
 router.get('/login', function (req, res) {
     res.render('login', { user : req.user });
 });
 
-// Register
+//Register
 router.get('/register', function (req, res) {
 	res.render('register');
 });
 
 
-// Register a User
+//Register  User
 router.post('/register', function (req, res) {
 	var name = req.body.name;
 	var email = req.body.email;
