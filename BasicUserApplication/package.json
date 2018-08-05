@@ -1,25 +1,28 @@
 {
-  "name": "nodekb",
+  "name": "loginapp",
   "version": "1.0.0",
-  "description": "Simple knowledgebase app",
+  "description": "Simple authentication system",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brad Traversy",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.17.2",
-    "connect-flash": "^0.1.1",
-    "express": "^4.15.3",
-    "express-messages": "^1.0.1",
-    "express-session": "^1.15.3",
-    "express-validator": "^3.2.0",
-    "mongodb": "^3.1.1",
-    "mongoose": "^4.10.2",
-    "passport": "^0.3.2",
-    "passport-local": "^1.0.0",
-    "pug": "^2.0.0-rc.1"
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   }
 }

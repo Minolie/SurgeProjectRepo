@@ -1,30 +1,20 @@
-# Article Knowledgebase Application
+# Node.js Loginapp
 
-This is a knowledgebase app used in the "Node.js & Express From Scratch" Youtube series.
-
-## Technologies
-* Node.js
-* Express
-* Express Messages, Session, Connect Flash & Validation
-* MongoDB & Mongoose
-* Pug Templating
-* Passport.js Authentication
-* BCrypt Hashing
+This is a user login and registration app using Node.js, Express, Passport and Mongoose. It is part of the YouTube series [here](https://www.youtube.com/watch?v=Z1ktxiqyiLA)
 
 ### Version
-2.0.0
+1.1.0
 
-## Usage
+### Usage
 
 
 ### Installation
 
-Install the dependencies
+Loginapp requires [Node.js](https://nodejs.org/) v4+ to run.
 
 ```sh
 $ npm install
 ```
-Run app
 
 ```sh
 $ npm start
